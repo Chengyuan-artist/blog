@@ -1,0 +1,9 @@
+name = "Cheng Yuan"
+bio = "HUST, CS, ungraduated."
+# company = "Company"
+location = "Earth"
+# about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
+avatar = "images/zcy.jfif"
+
+[params]
+  #layout = "compact"

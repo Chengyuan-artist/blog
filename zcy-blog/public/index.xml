@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZCY&#39;s Site</title>
+    <link>/</link>
+    <description>Recent content on ZCY&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright {year} by zcy. All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 20 Sep 2021 16:36:52 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 20 Sep 2021 19:45:13 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>有空再写。。摸鱼摸鱼</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Mon, 20 Sep 2021 16:36:52 +0800</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>Hello World! This is the first blog. It has 3 points: simple clear nice 中文测试</description>
+    </item>
+    
+  </channel>
+</rss>

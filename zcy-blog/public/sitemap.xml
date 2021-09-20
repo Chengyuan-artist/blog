@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2021-09-20T19:45:13+08:00</lastmod>
+  </url><url>
+    <loc>/tags/hello-world/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/posts/hello-world/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/categories/leisure/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-09-20T16:36:52+08:00</lastmod>
+  </url><url>
+    <loc>/search/</loc>
+  </url><url>
+    <loc>/series/</loc>
+  </url><url>
+    <loc>/archives/</loc>
+  </url>
+</urlset>
