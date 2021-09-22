@@ -1,3 +1,6 @@
 [submodule "zcy-blog/themes/hugo-theme-bootstrap"]
 	path = zcy-blog/themes/hugo-theme-bootstrap
 	url = https://github.com/razonyang/hugo-theme-bootstrap
+[submodule "zcy-blog/themes/LoveIt"]
+	path = zcy-blog/themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
