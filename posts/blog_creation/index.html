@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Hugo博客搭建 - Kanna&#39;s World</title><meta name="Description" content="This is zcy&#39;s world"><meta property="og:title" content="Hugo博客搭建" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chengyuan-artist.github.io/blog/posts/blog_creation/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-23T23:02:40+08:00" />
+<meta property="article:modified_time" content="2021-09-24T13:53:25+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo博客搭建"/>
+<meta name="twitter:description" content=""/>
+<meta name="application-name" content="Kanna&#39;s World">
+<meta name="apple-mobile-web-app-title" content="Kanna&#39;s World"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chengyuan-artist.github.io/blog/posts/blog_creation/" /><link rel="prev" href="https://chengyuan-artist.github.io/blog/posts/hello-world/" /><link rel="stylesheet" href="/blog/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="stylesheet" href="/blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/blog/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Hugo博客搭建",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chengyuan-artist.github.io\/blog\/posts\/blog_creation\/"
+        },"genre": "posts","keywords": "Hugo, blog","wordcount":  2118 ,
+        "url": "https:\/\/chengyuan-artist.github.io\/blog\/posts\/blog_creation\/","datePublished": "2021-09-23T23:02:40+08:00","dateModified": "2021-09-24T13:53:25+00:00","publisher": {
+            "@type": "Organization",
+            "name": "zcy"},"author": {
+                "@type": "Person",
+                "name": "zcy"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/" title="Kanna&#39;s World"><span class="header-title-pre"><i class='fas fa-dragon'></i></span>Kanna&#39;s World</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/posts/"><i class='fas fa-archive'></i> 文章 </a><a class="menu-item" href="/blog/tags/"><i class='fas fa-tags'></i> 标签 </a><a class="menu-item" href="/blog/categories/"><i class='fas fa-columns'></i> 分类 </a><a class="menu-item" href="/blog/about/"><i class='fas fa-heart'></i> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/blog/" title="Kanna&#39;s World"><span class="header-title-pre"><i class='fas fa-dragon'></i></span>Kanna&#39;s World</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/blog/posts/" title=""><i class='fas fa-archive'></i>文章</a><a class="menu-item" href="/blog/tags/" title=""><i class='fas fa-tags'></i>标签</a><a class="menu-item" href="/blog/categories/" title=""><i class='fas fa-columns'></i>分类</a><a class="menu-item" href="/blog/about/" title=""><i class='fas fa-heart'></i>关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Hugo博客搭建</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>zcy</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-09-23">2021-09-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2118 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#技术栈选择">技术栈选择</a></li>
+    <li><a href="#hugo安装">Hugo安装</a></li>
+    <li><a href="#hugo配置">Hugo配置</a></li>
+    <li><a href="#部署">部署</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="博客搭建">博客搭建</h1>
+<blockquote>
+<p>本文初步设定按照时间顺序，记录博客搭建的过程和踩过的坑，以及过程中学会的新姿势（</p>
+</blockquote>
+<h2 id="技术栈选择">技术栈选择</h2>
+<blockquote>
+<p>Hugo + GitHub Page</p>
+</blockquote>
+<p>搭博客这个想法年初就有了，git仓库也建好了，结果一直咕到现在。。。</p>
+<p>搭之前参考了一下周围同龄人大佬的技术栈，基本上分为Hexo和Hugo两类。逛了一下Hugo git仓库发现是拿go写的，果断选择Hugo（不得不说，go确实优美）。也是早早听说Github有免费托管网页的功能，因为相较其他部署方法（服务器Netflix等）感觉比较方便，所以选择了Github page。</p>
+<p>直到暑假NUS夏令营接触了一下云服务器，开学看了计网自顶而下的应用层部分，才知道HTTP协议，网络应用通信的基本原理有多简单。后悔没有早点了解，一直云里雾里。</p>
+<h2 id="hugo安装">Hugo安装</h2>
+<blockquote>
+<p>Windows 11</p>
+</blockquote>
+<p>一定要记得下载extend版本，非extend版本不支持Sass/SCSS扩展</p>
+<p>Hugo并不提供installer安装版本，需要自行从git仓库下载对应版本安装包并解压。</p>
+<p>对于具体的安装，<a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">官方文档</a>还贴心地给出了面对Technical Users和Less-technical Users的不同教程（，然而在Technical Users一栏在PowerShell中配置Path的方法是临时的。好奇PowerShell有没有像Linux <code>.bashrc</code>配置文件一样的东西，经过一番google发现确实有，Ps用一个叫profile的文件管理启动配置。于是马上按<a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1#how-to-create-a-profile" target="_blank" rel="noopener noreffer">文档</a>来创建。</p>
+<p>创建</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="k">if</span> <span class="p">(!(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="nv">$PROFILE</span><span class="p">))</span> <span class="p">{</span>
+  <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">File</span> <span class="n">-Path</span> <span class="nv">$PROFILE</span> <span class="n">-Force</span>
+<span class="p">}</span>
+</code></pre></div><p>编辑</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">code</span> <span class="nv">$PROFILE</span>
+</code></pre></div><p>配置<code>.ps1</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="k">function</span> <span class="n">InitPath</span> <span class="p">{</span>
+    <span class="nv">$env:Path</span> <span class="p">+=</span> <span class="s2">&#34;;D:\Coding\Hugo\bin&#34;</span>
+<span class="p">}</span>
+<span class="n">InitPath</span>
+</code></pre></div><blockquote>
+<p>研究了一下，Ps的<code>$env:path</code>变量保存的初值是系统path+用户path，这条语句只会改变当前ps命令行的path值，不会影响系统变量。</p>
+</blockquote>
+<p>兴高采烈打开新Ps窗口，结果一大堆红字就跳了出来，貌似是没有脚本运行权限。又search一番发现，原来ps默认禁止配置脚本运行（晕。查阅有关<a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1" target="_blank" rel="noopener noreffer">文档</a>，在Ps中<code>Get-ExecutionPolicy</code>的默认值为<code>Restricted</code>，不允许任何配置脚本文件运行，把此值改为<code>RemoteSigned</code>即可</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Set-ExecutionPolicy</span> <span class="n">-ExecutionPolicy</span> <span class="n">RemoteSigned</span>
+</code></pre></div><blockquote>
+<p><code>RemoteSigned</code>默认为Windows server的权限属性</p>
+<p><code> Restricted</code>默认为Windows client的权限属性（安全性考虑？普通用户真就不当人呗）</p>
+</blockquote>
+<p>至此，Hugo终于安装好了。</p>
+<p><code>ArchLinux</code>的安装只需要一行</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo pacman -Syu hugo
+</code></pre></div><p>泪目了</p>
+<p>按照传统异能</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">hugo</span> <span class="n">version</span>
+</code></pre></div><p>显示</p>
+<pre tabindex="0"><code>hugo v0.88.1-5BC54738+extended windows/amd64 BuildDate=2021-09-04T09:39:19Z VendorInfo=gohugoio
+</code></pre><h2 id="hugo配置">Hugo配置</h2>
+<p>Hugo使用<code>config.toml</code>文件来进行具体配置。除了一些通用配置外，剩下的配置基本都是根据你选定的主题xjb魔改就行了。例如：</p>
+<pre tabindex="0"><code>hugo new site blog
+cd blog
+</code></pre><p>初始化git仓库</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>主题最好以submodule的形式添加，便于更新</p>
+<p>这里在<code>themes</code>文件夹下添加了<a href="https://github.com/dillonzq/LoveIt/" target="_blank" rel="noopener noreffer">LoveIt</a>主题</p>
+<pre tabindex="0"><code>git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+</code></pre><p>在配置文件<code>config.toml</code>中添加</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;LoveIt&#34;</span>
+</code></pre></div><p>剩下的配置按照<a href="https://hugoloveit.com/zh-cn/theme-documentation-basics/#basic-configuration" target="_blank" rel="noopener noreffer">LoveIt官方文档</a>和<code>themes/LoveIt</code>目录下的<code>exampleSite</code>魔改即可。</p>
+<p>对于文章创建，Hugo使用<code>Archetypes</code>下的模板为你生成博客文件，不同主题都有自己不同的模板，使用命令</p>
+<pre tabindex="0"><code>hugo new posts/first_post.md
+</code></pre><p>即可按照模板生成文档。</p>
+<p>或者，</p>
+<pre tabindex="0"><code>hugo new posts/first_post/index.md
+</code></pre><p>这样便于将图片等资源放在文档同一目录下，便于索引。见Hugo文档<a href="https://gohugo.io/content-management/page-bundles/#leaf-bundles" target="_blank" rel="noopener noreffer">Leaf Bundles</a></p>
+<p>另外，在查文档时还了解到用日期年月日来形成url索引文章的方式，如 9/23/21/hello.md。有空再去了解</p>
+<p>在配置网站的过程中，使用</p>
+<pre tabindex="0"><code>hugo server -D
+</code></pre><p>可以实时查看网站的变化</p>
+<p>当调整满意后，使用</p>
+<pre tabindex="0"><code>hugo
+</code></pre><p>生成静态网站，默认输出在<code>public</code>目录</p>
+<h2 id="部署">部署</h2>
+<p>一开始的想法是在Github建两个仓库，一个存网站Hugo源码，gitignore<code>public</code>文件更新；另一个以<code>username.github.io </code>命名的仓库上传<code>public</code>的内容，逻辑看起来很清晰，对吧。但一开始直接犯蠢把Hugo源码发到<code>username.github.io</code>仓库了，结果Github page部署选择没法选<code>public</code>子文件，由于git姿势不够，遂把整个库删了&hellip; 后来搞了两个仓库，又忘记ignore<code>public</code>，直接在<code>public</code>下新建git仓库，当时就感觉有点不对劲，因为这样的操作会导致<code>public</code>文件下的每个更新都会影响到整颗文件树，而本意是希望二者相对独立互不干扰（虽说加了gitignore当前情境下就没问题了，但毕竟是个一般性问题）。参考了<a href="https://zhuanlan.zhihu.com/p/37752930" target="_blank" rel="noopener noreffer">这篇博客</a>，发现git还有<code>git worktree add</code>操作，就是为了解决上述问题，新姿势get。</p>
+<p>这篇博客中提出了两种部署方法</p>
+<ol>
+<li>
+<p>将hugo输出文件的默认文件夹名称改为docs</p>
+<p>只需要在<code>config.toml</code>中添加</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">publishDir</span> <span class="p">=</span> <span class="nx">docs</span>
+</code></pre></div><p>即可</p>
+<p>随后可以直接修改GitHub page部署<code>docs</code>下的网页。</p>
+</li>
+<li>
+<p>在<code>public</code>文件夹下建立独立分支</p>
+<p>配置GitHub page部署该独立分支的内容</p>
+<p>代码如下（示例）</p>
+<pre tabindex="0"><code>//忽略public子目录
+echo &quot;public&quot; &gt;&gt; .gitignore
+//初始化publish branch
+git checkout --orphan publish
+git reset --hard
+git commit --allow-empty -m &quot;init publish branch&quot;
+git push origin publish
+git checkout main
+
+// 部署
+rm -rf public
+mkdir public
+rm -rf .git/worktrees/public/
+
+// 在public下建立publish独立分支pulish
+// index reset 至远端 publish
+git worktree add -B publish public origin/publish
+
+hugo
+
+cd public
+git add --all
+git commit -m &quot;some words&quot;
+
+git push origin publish
+</code></pre><p>这个方法的好处是可以将源文档和生成的网页文档的版本历史<strong>分开控制</strong></p>
+<p>有关git worktree 相关知识，下篇博客总结一下（咕咕咕</p>
+</li>
+</ol></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-09-24</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/blog/tags/hugo/">Hugo</a>,&nbsp;<a href="/blog/tags/blog/">blog</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/blog/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/blog/posts/hello-world/" class="prev" rel="prev" title="Hello World"><i class="fas fa-angle-left fa-fw"></i>Hello World</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/blog/" target="_blank">zcy</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/blog/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/blog/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/blog/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/blog/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/blog/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"search":{"highlightTag":"em","lunrIndexURL":"/blog/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/blog/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+</html>
