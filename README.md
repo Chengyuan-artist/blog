@@ -1,6 +1,8 @@
 # ZCY's blog
 drived by Hugo + GitHub Pages + LoveIt theme
 
-https://chengyuan-artist.github.io/blog/
+now it has been migrated to Netlify
+
+https://kannaj.org/
 
 :)
