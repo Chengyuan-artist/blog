@@ -81,7 +81,7 @@ theme = "LoveIt"
       # 主页个人信息
       [params.home.profile]
         enable = true
-        avatarURL = "/images/zcy.jfif"
+        avatarURL = "images/zcy.png"
         # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
         title = "<i class='fas fa-dragon'></i>Kanna's World"
         # 主页显示的网站副标题
