@@ -1,4 +1,4 @@
-baseURL = "https://chengyuan-artist.github.io/blog"
+baseURL = "https://chengyuan-artist.github.io"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -181,7 +181,7 @@ theme = "LoveIt"
     # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
     post = ""
     name = "文章"
-    url = "../blog/posts/"
+    url = "/posts/"
     # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
     title = ""
     weight = 1
@@ -190,7 +190,7 @@ theme = "LoveIt"
     pre = "<i class='fas fa-tags'></i>"
     post = ""
     name = "标签"
-    url = "../blog/tags/"
+    url = "/tags/"
     title = ""
     weight = 2
   [[menu.main]]
@@ -198,7 +198,7 @@ theme = "LoveIt"
     pre = "<i class='fas fa-columns'></i>"
     post = ""
     name = "分类"
-    url = "../blog/categories/"
+    url = "/categories/"
     title = ""
     weight = 3
   [[menu.main]]
@@ -206,7 +206,7 @@ theme = "LoveIt"
     pre = "<i class='fas fa-heart'></i>"
     post = ""
     name = "关于"
-    url = "../blog/about/"
+    url = "/about/"
     title = ""
     weight = 4
 
