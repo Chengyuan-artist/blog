@@ -25,6 +25,8 @@ lightgallery: false
 license: ""
 ---
 
+记录Hugo博客搭建的过程
+
 <!--more-->
 
 # 博客搭建

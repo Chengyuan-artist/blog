@@ -1,9 +1,9 @@
 ---
-title: "Go_proxy"
+title: "go get代理配置问题"
 subtitle: ""
 date: 2021-10-11T11:23:57+08:00
 lastmod: 2021-10-11T11:23:57+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""

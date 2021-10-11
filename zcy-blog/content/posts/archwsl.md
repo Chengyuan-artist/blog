@@ -1,9 +1,9 @@
 ---
-title: "Archwsl"
+title: "WSL2下优雅使用Arch"
 subtitle: ""
 date: 2021-09-27T15:58:31+08:00
 lastmod: 2021-09-27T15:58:31+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
